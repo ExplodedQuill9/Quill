@@ -1,4 +1,4 @@
-export image_name := Quill
+export image_name := quill
 export default_tag := env("DEFAULT_TAG", "latest")
 export bib_image := env("BIB_IMAGE", "quay.io/centos-bootc/bootc-image-builder:latest")
 
