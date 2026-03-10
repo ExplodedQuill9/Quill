@@ -1,3 +1,2 @@
-[[customizations.filesystem]]
-mountpoint = "/"
-minsize = "20 GiB"
+[container]
+image = "ghcr.io/explodedquill9/quill:latest"
