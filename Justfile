@@ -317,3 +317,8 @@ format:
     fi
     # Run shfmt on all Bash scripts
     /usr/bin/find . -iname "*.sh" -type f -exec shfmt --write "{}" ';'
+# Make install-custom.sh executable to fix buildah exit 126
+fix-script-permissions:
+    chmod +x build_files/install-custom.sh
+    git add build_files/install-custom.sh
+    git commit -m "Make install-custom.sh executable to fix 126" || true
