@@ -1,4 +1,4 @@
-FROM ghcr.io/ublue-os/bazzite-gnome-nvidia:testing
+FROM ghcr.io/ublue-os/bazzite-gnome-nvidia:testing-43
 
 COPY build_files/install-custom.sh /tmp/
 RUN chmod +x /tmp/install-custom.sh && \
